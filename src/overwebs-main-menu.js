@@ -1,5 +1,5 @@
-import { GluonElement, html } from '../gluonjs/gluon.js';
-import '../overwebs-fonts/overwebs-fonts.js';
+import { GluonElement, html } from 'gluonjs';
+import 'overwebs-fonts';
 
 const scopedClass = `overwebs-main-menu-${((Math.random() * 0xffffff) << 0).toString(16)}`;
 const style = document.createElement('style');
